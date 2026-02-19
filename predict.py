@@ -32,4 +32,5 @@ def predict_intent(user_input):
     user_vector = vectorizer.transform(processed)
     prediction = logistic.predict(user_vector)
     # print(prediction)
+
     return prediction[0]
