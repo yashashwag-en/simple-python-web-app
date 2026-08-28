@@ -20,7 +20,7 @@ def preprocess_text(sentences):
         for word in filtered_tokens:
             lemmatized_words.append(wnet.lemmatize(word,"v"))
         cleaned_text = " ".join(lemmatized_words)
-        cleaned_sentences.append(cleaned_text) 
+        cleaned_sentences.append(cleaned_text)
     
     return cleaned_sentences
 
